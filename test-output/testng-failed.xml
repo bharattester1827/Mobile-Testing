@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testingAndroid.AndroidTesting">
+        <methods>
+          <include name="MobileTest1"/>
+        </methods>
+      </class> <!-- testingAndroid.AndroidTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
